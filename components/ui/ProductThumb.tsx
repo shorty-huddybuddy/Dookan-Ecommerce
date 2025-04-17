@@ -95,14 +95,14 @@ function ProductThumb({product}:{product:Product}){
         {product.name}
       </h2>
       <p className=" mt-2 text-sm text-gray-600 line-clamp-1">
-        {product.Description?.map((block) =>
+        {product.Description?.map((block) =>  
           block._type === "block"
             ? block.children?.map((child) => child.text).join("")
             : ""
         ).join(" ") || "No Description Available"}
       </p>
       <p className="mt-2 text-lg font-bold text-gray-900">
-        ${product.Price?.toFixed(2)}
+      £{product.Price?.toFixed(2)}
       </p>
     </div>
   </div>

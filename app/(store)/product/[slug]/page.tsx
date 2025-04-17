@@ -50,7 +50,7 @@ return (
                     <div>
                         <h1 className="text-3xl font-bold mb-4 ">{product.name}</h1>
                         <div className="text-xl font-semibold mb-4">
-                            ${product.Price?.toFixed(2)}
+                        £{product.Price?.toFixed(2)}
                         </div>
                     </div>
                 
