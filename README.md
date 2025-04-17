@@ -1,5 +1,4 @@
-[Click here to view the deployed site on Vercel]((https://ecommerce-dinesh.vercel.app/))
-
+**Live Demo:** [https://ecommerce-dinesh.vercel.app/](https://ecommerce-dinesh.vercel.app/)
 
 
 
