@@ -255,7 +255,3 @@ For Stripe webhooks in production:
     
 4. **Payment Processing Failures**: Verify Stripe configuration and check that product prices are properly formatted.
     
-
-## License
-
-This project is licensed under the MIT License.
